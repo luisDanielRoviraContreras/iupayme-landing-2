@@ -1,0 +1,113 @@
+\:root
+  --bg: 255,255,255
+  --bg-2: 245, 247, 249
+  --bg-3: 240, 242, 244
+  --bg-4: 235, 237, 239
+  --color: 18, 22, 36
+  --color-2: 255, 54, 95
+  --color-3: 255, 0, 136
+  --purpure: 95, 40, 255
+  --orange: 255, 179, 0
+  --green: 75, 210, 147
+
+body.darken
+  --bg: 24,25,28
+  --bg-2: 35, 37, 40
+  --bg-3: 20, 20, 23
+  --bg-4: 15, 16, 19
+  --color: 255,255,255
+  --color-2: 255, 54, 95
+  --color-3: 255, 0, 136
+  .if-darken
+    display: block
+  .not-darken
+    display: none !important
+
+.content-mobile
+  .if-mobile
+    display: block
+  .not-mobile
+    display: none !important
+
+.if-mobile
+    display: none
+.if-darken
+  display: none
+html
+  scroll-behavior: smooth
+body
+  // background: -color('bg-2')
+  background: #F4F7F8
+  color: -color('color')
+  font-family: Poppins,"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+  // overflow-x: hidden
+  overflow-x: hidden
+  scroll-behavior: smooth
+  width: 100%
+  &.not-transition
+   *
+    transition: 0s !important
+   *:after
+    transition: 0s !important
+   *:before
+    transition: 0s !important
+
+*
+  margin: 0px
+  padding: 0px
+  list-style: none
+  outline: none !important
+  list-style: none
+  box-sizing: border-box
+  outline-color: transparent
+  outline-style: none
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+  &:focus
+    outline: none !important
+    -webkit-tap-highlight-color: rgba(0,0,0,0)
+
+button
+  outline: none !important
+
+input,button,select,textarea
+  font-family: Poppins,"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+
+h1,h2,h3,h4,h5,h6
+  font-weight: 600
+
+a
+  text-decoration: none
+
+.page-enter-active, .page-leave-active
+  transition: all .2s ease
+
+.page-enter
+  transform: translate(-15px) !important
+  opacity: 0
+.page-leave-to
+  transform: translate(15px) !important
+  opacity: 0
+
+@keyframes loading
+  0%
+    transform: rotate(0)
+  100%
+    transform: rotate(360deg)
+
+// responsive
+@media (max-width: 812px), (pointer:none), (pointer:coarse)
+  .not-scroll-mobile
+    &::-webkit-scrollbar
+      height: 0px
+
+*::-webkit-scrollbar
+  width: 5px
+  height: 5px
+  display: block
+  background: -color('bg-2')
+
+*::-webkit-scrollbar-thumb
+  background: -color('color', .2)
+  border-radius: 5px
+  &:hover
+    background: -color('color', .6)
