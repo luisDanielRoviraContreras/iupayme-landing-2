@@ -19,7 +19,7 @@
         </defs>
         <g class="parallaxonde">
           <use xlink:href="#onda" x="48" y="7" fill="#fff" />
-          <use xlink:href="#onda" x="48" y="0" fill="rgb(242, 244, 245)" />
+          <use xlink:href="#onda" x="48" y="0" fill="rgb(251, 251, 251)" />
         </g>
       </svg>
     </div>
@@ -37,7 +37,7 @@
         </defs>
         <g class="parallaxonde2">
           <use xlink:href="#onda" x="48" y="7" fill="#fff" />
-          <use xlink:href="#onda" x="48" y="0" fill="rgb(242, 244, 245)" />
+          <use xlink:href="#onda" x="48" y="0" fill="rgb(251, 251, 251)" />
         </g>
       </svg>
     </div>
@@ -51,7 +51,7 @@ export default class chamos extends Vue {}
 <style lang="sass" scoped>
 .chamos
   height: 300px
-  background: rgb(242, 244, 245)
+  background: rgb(251, 251, 251)
   position: relative
   z-index: 200
   margin-top: 180px
@@ -76,7 +76,53 @@ export default class chamos extends Vue {}
     bottom: 0px
 // responsive
 
-// @media (max-width: 812px), (pointer:none), (pointer:coarse)
+@media (max-width: 1100px)
+  .chamos
+    .img-1
+      left: 10px
+    .img-2
+      right: 10px
+@media (max-width: 950px)
+  .chamos
+    h2
+      left: 40px
+    .img-1
+      left: 10px
+      top: -100px
+    .img-2
+      right: -40px
+@media (max-width: 700px)
+  .chamos
+    h2
+      width: calc(100% - 40px)
+      left: 20px
+      max-width: none
+      text-align: center
+      bottom: 30px
+    .img-1
+      left: 10px
+      top: -100px
+    .img-2
+      top: -100px
+      bottom: auto
+      right: -40px
+      width: 300px
+@media (max-width: 550px)
+  .chamos
+    display: flex
+    align-items: center
+    justify-content: center
+    h2
+      position: relative
+      font-size: 1.2rem
+    .img-1
+      top: -60px
+      width: 140px
+    .img-2
+      top: auto
+      bottom: -60px
+      width: 190px
+      right: 20px
 </style>
 <style scoped>
   .onde {
