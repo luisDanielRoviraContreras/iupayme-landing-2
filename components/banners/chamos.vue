@@ -19,7 +19,7 @@
         </defs>
         <g class="parallaxonde">
           <use xlink:href="#onda" x="48" y="7" fill="#fff" />
-          <use xlink:href="#onda" x="48" y="0" fill="rgb(251, 251, 251)" />
+          <use xlink:href="#onda" x="48" y="0" fill="#f7f8fa" />
         </g>
       </svg>
     </div>
@@ -37,7 +37,7 @@
         </defs>
         <g class="parallaxonde2">
           <use xlink:href="#onda" x="48" y="7" fill="#fff" />
-          <use xlink:href="#onda" x="48" y="0" fill="rgb(251, 251, 251)" />
+          <use xlink:href="#onda" x="48" y="0" fill="#f7f8fa" />
         </g>
       </svg>
     </div>
@@ -51,7 +51,7 @@ export default class chamos extends Vue {}
 <style lang="sass" scoped>
 .chamos
   height: 300px
-  background: rgb(251, 251, 251)
+  background: #f7f8fa
   position: relative
   z-index: 200
   margin-top: 180px
@@ -70,10 +70,11 @@ export default class chamos extends Vue {}
     z-index: 200
   h2
     font-weight: normal
-    max-width: 300px
+    max-width: 400px
     position: absolute
     left: 28%
     bottom: 0px
+    font-size: 1.8rem
 // responsive
 
 @media (max-width: 1100px)

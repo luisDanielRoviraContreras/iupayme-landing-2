@@ -77,10 +77,12 @@ export default class navbar extends Vue {
   width: 100%
   border-radius: 0px 0px 20px 20px
   padding-bottom: 20px
-  transition: all .25s ease
+  padding-top: 15px
+  transition: all .2s ease
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,.05)
   &.down
     padding-bottom: 0px
+    padding-top: 0px
     background: -color('bg')
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,.05)
     .login-btn
@@ -109,8 +111,8 @@ export default class navbar extends Vue {
   .con-btns
     margin-right: 20px
     button
-      padding: 8px 20px
-      border-radius: 14px
+      padding: 10px 25px
+      border-radius: 16px
       border: 0px
       font-weight: bold
       cursor: pointer
@@ -125,6 +127,7 @@ export default class navbar extends Vue {
         background: -color('color-2')
         color: #fff
         margin-left: 8px
+        background-image: linear-gradient(135deg, #FF3163 0%, #FF0683 74%)
         &:hover
           transform: translate(0,-3px)
           box-shadow: 0px 5px 12px 0px -color('color-2', .3)

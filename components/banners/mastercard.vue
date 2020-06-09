@@ -28,9 +28,10 @@ export default class mastercard extends Vue {}
   height: 35vh
   margin-top: 100px
   padding-bottom: 0px
+  margin-bottom: 70px
   h2
     font-weight: normal
-    font-size: 1.2rem
+    font-size: 1.4rem
     padding: 0px 50px
   .con-master
     margin: 10px
@@ -47,7 +48,7 @@ export default class mastercard extends Vue {}
       margin-top: -50px
       box-shadow: 0px 5px 25px 0px rgba(0,0,0,.05)
       img
-        width: 110px
+        width: 130px
 // responsive
 
 @media (max-width: 812px), (pointer:none), (pointer:coarse)

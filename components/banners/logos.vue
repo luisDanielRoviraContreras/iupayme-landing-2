@@ -2,7 +2,7 @@
   <div class="logos">
     <div class="con-text">
       <p>
-        <b>
+        <b class="logo">
           iuPayme
         </b>
         es un producto de <b>GMONEY SA</b> autorizada por la <b>SBS (super intendencia de banca y seguro)</b>
@@ -21,7 +21,7 @@
           <img src="/as.png" alt="">
         </li>
         <li>
-          <img src="/1200px-Mastercard-logo.svg.png" alt="">
+          <img class="master" src="/1200px-Mastercard-logo.svg.png" alt="">
         </li>
       </ul>
     </div>
@@ -40,10 +40,13 @@ export default class logos extends Vue {}
   justify-content: center
   padding: 50px 0px
   padding-top: 100px
+  padding-bottom: 80px
   .con-text
     max-width: 460px
     padding: 15px
     padding-right: 40px
+    p
+      font-size: 1.1rem
   .con-logos
     ul
       display: flex
@@ -57,12 +60,14 @@ export default class logos extends Vue {}
         justify-content: center
         height: auto
         background: #fff
-        height: 120px
+        height: 130px
         margin: 10px
         border-radius: 20px
-        padding: 20px 0px
+        padding: 30px 0px
   img
-    width: 110px
+    width: 130px
+    &.master
+      width: 100px
 // responsive
 
 @media (max-width: 812px), (pointer:none), (pointer:coarse)

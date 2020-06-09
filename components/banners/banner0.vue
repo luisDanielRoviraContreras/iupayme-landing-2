@@ -19,6 +19,14 @@
           src="/img/card3.png"
           alt=""
         >
+        <img
+          class="blur"
+          :style="{
+            transform: `translate(${left / 50}px, -${top / 50}px)`
+          }"
+          src="/img/card3.png"
+          alt=""
+        >
         <p>
           Obtén tu tarjeta <b>iuPayme</b> al toque
         </p>
@@ -35,8 +43,16 @@
           src="/img/puerquito2.png"
           alt=""
         >
+        <img
+          class="blur"
+          :style="{
+            transform: `translate(${left / 50}px, -${top / 50}px)`
+          }"
+          src="/img/puerquito2.png"
+          alt=""
+        >
         <p>
-          Crea <b>chanchas</b> con tus amigos desde la misma plataforma
+          Crea <b class="not-italic">chanchas</b> con tus amigos desde la misma plataforma
         </p>
       </li>
       <li
@@ -47,6 +63,14 @@
         <img
           :style="{
             transform: `translate(${left / 70}px, -${top / 70}px)`
+          }"
+          src="/img/chat3.png"
+          alt=""
+        >
+        <img
+          class="blur"
+          :style="{
+            transform: `translate(${left / 50}px, -${top / 50}px)`
           }"
           src="/img/chat3.png"
           alt=""
@@ -63,6 +87,14 @@
         <img
           :style="{
             transform: `translate(${left / 70}px, -${top / 70}px)`
+          }"
+          src="/img/escudo3.png"
+          alt=""
+        >
+        <img
+          class="blur"
+          :style="{
+            transform: `translate(${left / 50}px, -${top / 50}px)`
           }"
           src="/img/escudo3.png"
           alt=""
@@ -96,7 +128,6 @@ export default class sec3 extends Vue {
 .banner-0
   widows: 100%
   position: relative
-  background: -color('bg-2')
   display: flex
   align-items: center
   justify-content: center
@@ -124,17 +155,27 @@ export default class sec3 extends Vue {
       min-height: 180px
       box-shadow: 0px 0px 40px 0px rgba(0,0,0,.05)
       transition: box-shadow .25s ease, transform .1s ease, margin-top .4s ease
-      backface-visibility: visible
       p
         text-align: center
         padding: 10px
         font-size: .8rem
+        color: #8a95ac
+        b
+          color: #1d253c
+        b:not(.not-italic)
+          font-weight: bold
+          font-style: italic
       img
         width: 100%
         max-width: 120px
         margin-top: -50px
         margin-bottom: 15px
         transition: margin .25s ease
+        &.blur
+          position: absolute
+          filter: blur(12px)
+          z-index: -1
+          opacity: .4
 // responsive
 
 @media (min-width: 960px)

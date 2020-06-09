@@ -16,9 +16,9 @@
         </defs>
         <g class="parallaxonde">
           <use xlink:href="#onda" x="48" y="0" fill="rgba(255,255,255,1)" />
-          <use xlink:href="#onda" x="48" y="3" fill="rgba(240, 242, 244,1)" />
+          <use xlink:href="#onda" x="48" y="3" fill="rgba(255,255,255,.8)" />
           <use xlink:href="#onda" x="48" y="5" fill="rgba(255,255,255,.6)" />
-          <use xlink:href="#onda" x="48" y="7" fill="rgba(245, 247, 249)" />
+          <use xlink:href="#onda" x="48" y="7" fill="#eff2f6" />
         </g>
       </svg>
     </div>
@@ -33,7 +33,7 @@
           </li>
           <li>
             <a href="#">
-              Eres Programador?
+              ¿Eres Programador?
             </a>
           </li>
           <li>
@@ -74,6 +74,7 @@
         <img src="/1200px-Mastercard-logo.svg.png" alt="">
         <img src="/1200px-SBS.svg_.png" alt="">
         <img src="/as.png" alt="">
+        <img src="/logo.png" alt="">
       </div>
     </div>
 
@@ -117,6 +118,7 @@ export default class cfooter extends Vue {}
   padding-bottom: 20px
   p
     padding: 5px 10px
+    color: #a7adbd
 .con-footer
   padding: 30px
   padding-bottom: 20px
@@ -139,7 +141,7 @@ export default class cfooter extends Vue {}
           color: -color('color')
           font-size: .9rem
     .con-redes
-      margin-left: 40px
+      margin-left: 60px
       ul
         display: flex
         align-items: center
@@ -181,7 +183,7 @@ export default class cfooter extends Vue {}
     z-index: -1
 // responsive
 
-@media (max-width: 830px)
+@media (max-width: 960px)
   .con-footer
     flex-direction: column
     .con-links

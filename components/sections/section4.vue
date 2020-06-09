@@ -57,7 +57,6 @@ export default class sec4 extends Vue {}
 .sec-4
   widows: 100%
   position: relative
-  background: -color('bg-2')
   display: flex
   align-items: center
   justify-content: center

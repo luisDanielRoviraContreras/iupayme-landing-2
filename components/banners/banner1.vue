@@ -1,9 +1,9 @@
 <template>
   <div class="banner1">
     <div class="con-text">
-      <p>
+      <h2>
         Compra con tu tarjeta virtual <b>iuPayme</b> en cualquier comercio o de manera online
-      </p>
+      </h2>
     </div>
 
     <div class="ondebox">
@@ -19,7 +19,7 @@
         </defs>
         <g class="parallaxonde">
           <use xlink:href="#onda" x="48" y="7" fill="#fed500" />
-          <use xlink:href="#onda" x="48" y="0" fill="rgba(245, 247, 249,1)" />
+          <use xlink:href="#onda" x="48" y="0" fill="#eff2f6" />
         </g>
       </svg>
     </div>
@@ -36,7 +36,7 @@
         </defs>
         <g class="parallaxonde2">
           <use xlink:href="#onda2" x="48" y="0" fill="#7641ff" />
-          <use xlink:href="#onda2" x="48" y="5" fill="rgba(245, 247, 249,1)" />
+          <use xlink:href="#onda2" x="48" y="5" fill="#eff2f6" />
         </g>
       </svg>
     </div>
@@ -72,16 +72,19 @@ export default class banner1 extends Vue {}
     color: -color('bg')
     z-index: 200
     font-size: 1.3rem
-    max-width: 400px
+    max-width: 600px
     left: 150px
+    h2
+      font-size: 1.6rem
     &:after
       position: absolute
       top: -10px
       left: 0px
       width: 30px
-      height: 3px
+      height: 4px
       background: -color('bg')
       content: ''
+      border-radius: 10px
   .ondebox
     bottom: 0px
     position: absolute

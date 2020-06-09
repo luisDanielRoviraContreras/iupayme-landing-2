@@ -126,7 +126,6 @@ export default class sec1 extends Vue {}
   widows: 100%
   position: relative
   height: 100vh
-  background: -color('bg-2')
   display: flex
   align-items: center
   justify-content: center
@@ -152,18 +151,14 @@ export default class sec1 extends Vue {}
           top: 240px
           left: 0px
           width: 210px
-          svg
-            opacity: .6
         &.svg-2
           bottom: 80px
           left: 0px
-          opacity: .8
           width: 150px
           fill: rgb(255, 217, 23)
         &.svg-3
           bottom: 100px
           right: -30px
-          opacity: .6
           width: 250px
     &.con-2
       .content-con
@@ -185,7 +180,7 @@ export default class sec1 extends Vue {}
         justify-content: center
         margin-top: 20px
         img
-          max-width: 150px
+          max-width: 160px
           margin-right: 12px
     .con-img
       width: 100%

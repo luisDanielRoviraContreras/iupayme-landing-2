@@ -37,7 +37,7 @@ html
   scroll-behavior: smooth
 body
   // background: -color('bg-2')
-  background: #F4F7F8
+  background: #eff2f6
   color: -color('color')
   font-family: Poppins,"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
   // overflow-x: hidden
@@ -65,7 +65,6 @@ body
   &:focus
     outline: none !important
     -webkit-tap-highlight-color: rgba(0,0,0,0)
-
 button
   outline: none !important
 
@@ -73,10 +72,18 @@ input,button,select,textarea
   font-family: Poppins,"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
 
 h1,h2,h3,h4,h5,h6
-  font-weight: 600
+  b
+    font-weight: bold
+    font-style: italic
+b.logo
+  font-weight: bold
+  font-style: italic
 
 a
   text-decoration: none
+
+p
+  color: #767E8B
 
 .page-enter-active, .page-leave-active
   transition: all .2s ease

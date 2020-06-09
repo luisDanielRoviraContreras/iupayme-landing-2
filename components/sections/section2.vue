@@ -3,7 +3,7 @@
     <div class="con con-1">
       <div class="con-content">
         <h2>
-          Que es  <b>iuPayme</b>?
+         ¿Que es  <b>iuPayme</b>?
         </h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam luctus massa quam. Sed venenatis lacinia lorem sodales ornare.
@@ -153,9 +153,10 @@ export default class sec2 extends Vue {
         width: 100%
     h2
       font-weight: normal
+      font-size: 1.8rem
     p
       padding: 20px 0px
-      font-size: .9rem
+      font-size: 1rem
 // responsive
 
 @media (max-width: 812px), (pointer:none), (pointer:coarse)

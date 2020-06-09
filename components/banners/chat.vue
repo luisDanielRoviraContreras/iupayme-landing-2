@@ -66,9 +66,10 @@ export default class chat extends Vue {
         width: 100%
     h2
       font-weight: normal
+      font-size: 1.8rem
     p
       padding: 20px 0px
-      font-size: .9rem
+      font-size: 1rem
 // responsive
 
 @media (max-width: 812px), (pointer:none), (pointer:coarse)
