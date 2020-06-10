@@ -100,6 +100,7 @@ export default class chamos extends Vue {}
       max-width: none
       text-align: center
       bottom: 30px
+      font-size: 1.2rem
     .img-1
       left: 10px
       top: -100px
@@ -115,7 +116,7 @@ export default class chamos extends Vue {}
     justify-content: center
     h2
       position: relative
-      font-size: 1.2rem
+      font-size: 1.1rem
     .img-1
       top: -60px
       width: 140px

@@ -118,7 +118,8 @@ export default class banner1 extends Vue {}
     background-size: auto 100%
     background-position: center
     .con-text
-      font-size: 1rem
+      h2
+        font-size: 1.2rem
       &:after
         display: none
 </style>

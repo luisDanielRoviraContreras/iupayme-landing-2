@@ -257,6 +257,8 @@ export default class sec1 extends Vue {
       height: auto
       &.con-1
         width: 100%
+        margin-left: 0px
+        margin-top: 100px
         .con-svg
           .con-points
             display: none
@@ -279,12 +281,18 @@ export default class sec1 extends Vue {
         padding-top: 100px
         min-width: auto
         margin-right: 0px
+        .con-download
+          img
+            max-width: 130px
         h1
           font-size: 1.3rem
         p
           font-size: .8rem
       .con-img
         height: auto
+        img
+          min-width: auto
+          max-width: 500px
     .con-1
       padding-bottom: 0px
 </style>

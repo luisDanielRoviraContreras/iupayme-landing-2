@@ -79,5 +79,5 @@ export default class sec4 extends Vue {}
   .sec-4
     padding-top: 80px
     h2
-      font-size: 1.5rem
+      font-size: 1.3rem
 </style>

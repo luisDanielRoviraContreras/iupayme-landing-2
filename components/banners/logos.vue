@@ -76,6 +76,17 @@ export default class logos extends Vue {}
   .logos
     padding-top: 50px
     flex-direction: column
+    .con-logos
+      ul
+        padding: 10px
+        li
+          padding: 10px
+          height: 110px
+          margin: 8px
+          img
+            width: 110px
+          img.master
+            width: 80px
     .con-text
       padding: 20px
       font-size: .8rem

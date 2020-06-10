@@ -203,11 +203,14 @@ export default class sec3 extends Vue {
     ul
       li
         width: calc(100% - 30px)
-        margin-bottom: 30px
+        margin-bottom: 0px
         flex-direction: row
         min-height: auto
+        padding: 10px
         img
-          max-width: 90px
+          max-width: 70px
+          margin-top: 0px
+          margin-bottom: 0px
           &.blur
             display: none
         p

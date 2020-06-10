@@ -244,9 +244,9 @@ export default class sec1 extends Vue {}
           font-size: .8rem
           padding: 10px 0px !important
         h2
-          font-size: 1.2rem
+          font-size: 1.1rem
       .con-img
         height: auto
-        max-width: 300px
+        max-width: 200px
         margin-bottom: -50px !important
 </style>

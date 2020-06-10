@@ -56,12 +56,14 @@ export default class mastercard extends Vue {}
     padding-top: 0px
     h2
       font-size: 1rem
-      padding: 10px 20px
+      padding: 10px 15px
+      text-align: center
     .con-master
       width: calc(100% - 30px)
       margin: 0px 15px
       padding: 15px 10px
+      flex-direction: column
       .con-img
         img
-          width: 80px
+          width: 70px
 </style>

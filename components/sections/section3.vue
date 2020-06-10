@@ -203,20 +203,20 @@ export default class sec3 extends Vue {
 @media (max-width: 900px)
   .sec-3
     height: auto
-    padding-bottom: 30px
+    padding-bottom: 60px
     h2
       padding: 10px
       font-size: 1.2rem
     .con-mockup
       flex-direction: column
       .mockup
-        height: 45vh
+        width: 220px
         .bg
-          width: auto !important
-          height: calc(100% - 20px) !important
+          height: auto !important
+          width: calc(100% - 30px) !important
         .img-mockup
-          width: auto !important
-          height: 100% !important
+          height: auto !important
+          width: 100% !important
       .con-info
         width: 100%
         max-width: none
