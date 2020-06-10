@@ -12,16 +12,16 @@
     </div>
 
     <ul>
-      <li>
+      <li class="active" id="sec-1-btn">
         <a href="#sec-1">Inicio</a>
       </li>
-      <li>
+      <li id="sec-2-btn">
         <a href="#sec-2">Que es iuPayme?</a>
       </li>
-      <li>
+      <li id="sec-3-btn">
         <a href="#sec-3">Como usar iuPayme</a>
       </li>
-      <li>
+      <li id="sec-4-btn">
         <a href="#sec-4">Preguntas frecuentes</a>
       </li>
       <li class="divider">
@@ -46,6 +46,10 @@ export default class navbar extends Vue {
   @Prop({ type: Boolean, default: false }) openSidebar: boolean
 
   down: boolean = false
+
+  get getActive () {
+    return this.$route.hash
+  }
 
   handleClickMenu () {
     this.$emit('clickMenu', true)
@@ -121,7 +125,7 @@ export default class navbar extends Vue {
       &.login-btn
         background: -color('bg')
         &:hover
-          background: -color('color')
+          background: -color('color') !important
           color: #fff
       &.sign-in
         background: -color('color-2')
@@ -145,6 +149,10 @@ export default class navbar extends Vue {
     justify-content: center
     li
       position: relative
+      &.active
+        a
+          opacity: 1 !important
+          color: -color('color-2')
       &.divider
         &:before
           content: ''

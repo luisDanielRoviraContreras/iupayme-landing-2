@@ -59,7 +59,8 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
 @Component
-export default class sec3 extends Vue {}
+export default class sec3 extends Vue {
+}
 </script>
 <style lang="sass" scoped>
 .sec-3

@@ -173,9 +173,9 @@ export default class sec3 extends Vue {
         transition: margin .25s ease
         &.blur
           position: absolute
-          filter: blur(12px)
+          filter: blur(14px)
           z-index: -1
-          opacity: .4
+          opacity: .5
 // responsive
 
 @media (min-width: 960px)
@@ -184,9 +184,9 @@ export default class sec3 extends Vue {
       li
         &:hover
           box-shadow: 0px 10px 40px 0px rgba(0,0,0,.15)
-          margin-top: -10px
+          margin-top: -8px
           img
-            margin-top: -80px !important
+            margin-top: -60px !important
             margin-bottom: 25px
 @media (max-width: 960px)
   .banner-0

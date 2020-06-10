@@ -1,23 +1,52 @@
 <template>
   <section id="sec-1" class="sec-1">
     <div class="con-1 con">
-      <div class="con-img">
-        <img src="/img/2.png" alt="">
+      <div
+       :style="{
+          transform: `translate(${left / 120}px, -${top / 120}px)`
+        }"
+       class="con-img">
+        <!-- <img src="/img/2.png" alt=""> -->
+        <img src="/5s.png" alt="">
       </div>
 
-      <div class="con-svg svg-1">
-        <div class="con-points points-1">
+      <div
+        class="con-svg svg-1">
+        <div
+          :style="{
+            transform: `translate(${left / 40}px, -${top / 40}px)`
+          }"
+          class="con-points points-1">
           <span
             v-for="(span, i) in 10"
             :key="i"
           />
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290.512 208.324">
+        <svg
+          :style="{
+            transform: `translate(${left / 60}px, -${top / 60}px)`
+          }"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 290.512 208.324"
+        >
           <path id="Oval" d="M124.185.49S216.733-5.256,250.3,22.6c15.56,12.913,21.279,30.254,9.048,53.138-26.736,56.534-67.093,88.9-135.162,88.9S0,142.853,0,74.784,124.185.49,124.185.49Z" transform="matrix(0.985, -0.174, 0.174, 0.985, 0, 46.184)" />
         </svg>
       </div>
       <div class="con-svg svg-2">
+        <div
+          :style="{
+            transform: `translate(${left / 30}px, -${top / 30}px)`
+          }"
+          class="con-points points-1">
+          <span
+            v-for="(span, i) in 10"
+            :key="i"
+          />
+        </div>
         <svg
+          :style="{
+            transform: `translate(${left / 50}px, -${top / 50}px)`
+          }"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 207.448 182.802">
@@ -31,7 +60,23 @@
         </svg>
       </div>
       <div class="con-svg svg-3">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 329.129 359.375">
+        <div
+          :style="{
+            transform: `translate(${left / 60}px, -${top / 60}px)`
+          }"
+          class="con-points points-1">
+          <span
+            v-for="(span, i) in 10"
+            :key="i"
+          />
+        </div>
+        <svg
+          :style="{
+            transform: `translate(${left / 30}px, -${top / 30}px)`
+          }"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 329.129 359.375">
           <defs>
             <linearGradient
               id="linear-gradient-2"
@@ -73,7 +118,22 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
 @Component
-export default class sec1 extends Vue {}
+export default class sec1 extends Vue {
+  left: number = 0
+  top: number = 0
+  mousemove (evt: any) {
+    const left = evt.clientX
+    const top = evt.clientY
+    this.left = -(left - this.$el.clientWidth / 2)
+    this.top = top
+  }
+
+  mounted () {
+    if (window.innerWidth > 812) {
+      window.addEventListener('mousemove', this.mousemove)
+    }
+  }
+}
 </script>
 <style lang="sass" scoped>
 .con-points
@@ -134,25 +194,29 @@ export default class sec1 extends Vue {}
     padding-bottom: 100px
     &.con-1
       position: relative
-      max-width: 700px
+      max-width: 800px
+      margin-right: 0px
       .con-svg
         position: absolute
+        svg
+          mix-blend-mode: multiply
         &.svg-1
           fill: rgb(255, 217, 23)
-          top: 240px
-          left: 100px
-          width: 210px
+          top: 160px
+          left: 155px
+          width: 260px
         &.svg-2
           bottom: 80px
-          left: 0px
+          left: 50px
           // opacity: .8
           width: 150px
         &.svg-3
           bottom: 100px
-          right: -30px
+          right: 0px
           // opacity: .6
           width: 250px
     &.con-2
+      margin-left: 0px
       .content-con
         display: flex
         align-items: flex-start
@@ -179,10 +243,10 @@ export default class sec1 extends Vue {}
       display: flex
       align-items: flex-end
       justify-content: center
-      max-width: 700px
+      max-width: 800px
       img
         width: 100%
-        min-width: 700px
+        min-width: 600px
 // responsive
 
 @media (max-width: 768px), (pointer:none), (pointer:coarse)

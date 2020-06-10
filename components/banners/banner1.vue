@@ -76,6 +76,7 @@ export default class banner1 extends Vue {}
     left: 150px
     h2
       font-size: 1.6rem
+      font-weight: normal
     &:after
       position: absolute
       top: -10px

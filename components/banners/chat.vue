@@ -45,6 +45,7 @@ export default class chat extends Vue {
   z-index: 200
   margin-top: -50px
   padding-top: 70px
+  min-height: 90vh
   .con
     width: 50%
     max-width: 600px

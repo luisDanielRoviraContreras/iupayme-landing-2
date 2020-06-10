@@ -53,8 +53,10 @@
           <path id="onda" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352Z" />
         </defs>
         <g class="parallaxonde">
-          <use xlink:href="#onda" x="48" y="7" fill="#fff" />
-          <use xlink:href="#onda" x="48" y="0" fill="rgb(240, 242, 244)" />
+          <use xlink:href="#onda" x="48" y="0" fill="rgba(255,255,255,1)" />
+          <use xlink:href="#onda" x="48" y="3" fill="rgba(255,255,255,.8)" />
+          <use xlink:href="#onda" x="48" y="5" fill="rgba(255,255,255,.6)" />
+          <use xlink:href="#onda" x="48" y="7" fill="#eff2f6" />
         </g>
       </svg>
     </div>
@@ -71,8 +73,10 @@
           <path id="onda2" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352Z" />
         </defs>
         <g class="parallaxonde2">
-          <use xlink:href="#onda" x="48" y="7" fill="#fff" />
-          <use xlink:href="#onda" x="48" y="0" fill="rgb(240, 242, 244)" />
+          <use xlink:href="#onda" x="48" y="0" fill="rgba(255,255,255,1)" />
+          <use xlink:href="#onda" x="48" y="3" fill="rgba(255,255,255,.8)" />
+          <use xlink:href="#onda" x="48" y="5" fill="rgba(255,255,255,.6)" />
+          <use xlink:href="#onda" x="48" y="7" fill="#eff2f6" />
         </g>
       </svg>
     </div>
@@ -134,7 +138,7 @@ export default class sec2 extends Vue {
   justify-content: center
   z-index: 200
   margin-top: -50px
-  padding-top: 70px
+  padding-top: 130px
   .con
     width: 50%
     max-width: 600px

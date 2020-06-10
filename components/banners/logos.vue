@@ -47,12 +47,14 @@ export default class logos extends Vue {}
     padding-right: 40px
     p
       font-size: 1.1rem
+      color: -color('color')
   .con-logos
     ul
       display: flex
       align-items: center
       justify-content: center
       flex-wrap: wrap
+      max-width: 480px
       li
         width: calc(50% - 20px)
         display: flex
