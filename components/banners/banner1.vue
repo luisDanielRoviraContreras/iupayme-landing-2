@@ -93,7 +93,7 @@ export default class banner1 extends Vue {}
     z-index: 300
   .ondebox2
     z-index: 300
-    top: -20px
+    top: -30px
     position: absolute
     width: 100%
     transform: rotate(180deg)

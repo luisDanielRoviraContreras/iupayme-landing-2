@@ -1,7 +1,7 @@
 <template>
   <div class="chamos">
-    <img class="img-1" src="/chicos1x.png" alt="">
-    <img class="img-2" src="/chicox.png" alt="">
+    <img class="img-1" src="/img/chicos1.png" alt="">
+    <img class="img-2" src="/img/chicos2.png" alt="">
     <h2>
       Ahora con <b>iuPayme</b> <br> tus hijos pueden tener su propia tarjeta
     </h2>
@@ -140,7 +140,7 @@ export default class chamos extends Vue {}
   /* Animation */
 
   .parallaxonde > use {
-    animation: move-forever 70s cubic-bezier(.55,.5,.45,.5) infinite;
+    animation: move-forever 50s cubic-bezier(.55,.5,.45,.5) infinite;
   }
   .parallaxonde > use:nth-child(1) {
     animation-delay: -2s;
@@ -184,14 +184,14 @@ export default class chamos extends Vue {}
   min-height:100px;
   max-height:150px;
   left: 0px;
-  bottom: -10vh;
+  bottom: -9vh;
   transform: rotate(180deg);
   }
 
   /* Animation */
 
   .parallaxonde2 > use {
-    animation: move-forever 50s cubic-bezier(.55,.5,.45,.5) reverse infinite;
+    animation: move-forever 30s cubic-bezier(.55,.5,.45,.5) reverse infinite;
   }
   .parallaxonde2 > use:nth-child(1) {
     animation-delay: -2s;

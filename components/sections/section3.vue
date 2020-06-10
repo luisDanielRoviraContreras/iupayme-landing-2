@@ -197,7 +197,7 @@ export default class sec3 extends Vue {
     .con-mockup
       ul
         li
-          &:hover
+          &:hover:not(.active)
             background: -color('bg')
             padding-left: 25px
 @media (max-width: 900px)

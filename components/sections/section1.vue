@@ -202,7 +202,7 @@ export default class sec1 extends Vue {
           mix-blend-mode: multiply
         &.svg-1
           fill: rgb(255, 217, 23)
-          top: 160px
+          top: 100px
           left: 155px
           width: 260px
         &.svg-2
@@ -273,11 +273,12 @@ export default class sec1 extends Vue {
             width: 45vw
       &.con-2
         order: -1
-        padding: 15px
+        padding: 20px
         padding-bottom: 0px
         width: 100%
         padding-top: 100px
         min-width: auto
+        margin-right: 0px
         h1
           font-size: 1.3rem
         p

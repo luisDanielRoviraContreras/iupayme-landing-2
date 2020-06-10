@@ -27,6 +27,9 @@ export default class index extends Vue {
     const sec2: HTMLElement = document.querySelector('#sec-2')
     const sec3: HTMLElement = document.querySelector('#sec-3')
     const sec4: HTMLElement = document.querySelector('#sec-4')
+    if (!sec2) {
+      return
+    }
     if (window.pageYOffset > sec2.offsetTop - 150 && window.pageYOffset < sec3.offsetTop - 150) {
       this.removeActives()
       document.querySelector('#sec-2-btn').classList.add('active')

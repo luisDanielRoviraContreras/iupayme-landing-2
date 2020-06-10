@@ -12,20 +12,34 @@
     </div>
 
     <ul>
-      <li class="active" id="sec-1-btn">
-        <a href="#sec-1">Inicio</a>
+      <li :class="{active: $route.name !== 'contact'}" id="sec-1-btn">
+        <a v-if="$route.name !== 'contact'" href="#sec-1">Inicio</a>
+        <nuxt-link v-else to="/">
+          Inicio
+        </nuxt-link>
       </li>
       <li id="sec-2-btn">
-        <a href="#sec-2">Que es iuPayme?</a>
+        <a v-if="$route.name !== 'contact'" href="#sec-2">Que es iuPayme?</a>
+        <nuxt-link v-else to="/#sec-2">
+          Que es iuPayme?
+        </nuxt-link>
       </li>
       <li id="sec-3-btn">
-        <a href="#sec-3">Como usar iuPayme</a>
+        <a v-if="$route.name !== 'contact'" href="#sec-3">Como usar iuPayme</a>
+        <nuxt-link v-else to="/#sec-3">
+          Como usar iuPayme
+        </nuxt-link>
       </li>
       <li id="sec-4-btn">
-        <a href="#sec-4">Preguntas frecuentes</a>
+        <a v-if="$route.name !== 'contact'" href="#sec-4">Preguntas frecuentes</a>
+        <nuxt-link v-else to="/#sec-4">
+          Preguntas frecuentes
+        </nuxt-link>
       </li>
-      <li class="divider">
-        <a href="#sec-5">Contáctenos</a>
+      <li :class="{active: $route.name == 'contact'}" class="divider contact">
+        <nuxt-link to="/contact">
+          Contáctenos
+        </nuxt-link>
       </li>
     </ul>
 
@@ -89,6 +103,13 @@ export default class navbar extends Vue {
     padding-top: 0px
     background: -color('bg')
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,.05)
+    ul
+      li
+        &.active
+          a
+            &:after
+              width: 40%
+              opacity: 1
     .login-btn
       background: -color('bg-3') !important
   .menu
@@ -170,6 +191,20 @@ export default class navbar extends Vue {
         color: -color('color')
         transition: all .25s ease
         font-weight: bold
+        position: relative
+        &:after
+          content: ''
+          left: 50%
+          top: 0px
+          height: 3px
+          width: 0%
+          opacity: 0
+          border-radius: 0px 0px 10px 10px
+          background: -color('color-2')
+          position: absolute
+          z-index: 10
+          transform: translate(-50%)
+          transition: all .25s ease
         &:hover
           opacity: .7
 

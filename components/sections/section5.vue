@@ -141,6 +141,7 @@ export default class sec1 extends Vue {}
   display: flex
   align-items: center
   justify-content: center
+  margin-bottom: 100px
   .con
     width: 50%
     max-width: 600px
@@ -212,6 +213,7 @@ export default class sec1 extends Vue {}
     flex-direction: column
     height: auto
     padding-top: 100px
+    margin-bottom: 30px
     .con
       height: auto
       width: 100%

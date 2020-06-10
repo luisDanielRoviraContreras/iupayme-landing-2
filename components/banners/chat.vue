@@ -76,6 +76,7 @@ export default class chat extends Vue {
 @media (max-width: 812px), (pointer:none), (pointer:coarse)
   .chat
     height: auto
+    min-height: auto
     .con
       height: auto
       &.con-2

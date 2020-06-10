@@ -188,6 +188,7 @@ export default class sec3 extends Vue {
           img
             margin-top: -60px !important
             margin-bottom: 25px
+
 @media (max-width: 960px)
   .banner-0
     ul
@@ -207,6 +208,8 @@ export default class sec3 extends Vue {
         min-height: auto
         img
           max-width: 90px
+          &.blur
+            display: none
         p
           width: 100%
 // @media (max-width: 812px), (pointer:none), (pointer:coarse)

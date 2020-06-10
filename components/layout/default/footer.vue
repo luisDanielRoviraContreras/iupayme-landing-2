@@ -15,10 +15,10 @@
           <path id="onda" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352Z" />
         </defs>
         <g class="parallaxonde">
-          <use xlink:href="#onda" x="48" y="0" fill="rgba(255,255,255,1)" />
+          <use xlink:href="#onda" x="48" y="0" fill="#ebedf2" />
           <use xlink:href="#onda" x="48" y="3" fill="rgba(255,255,255,.8)" />
           <use xlink:href="#onda" x="48" y="5" fill="rgba(255,255,255,.6)" />
-          <use xlink:href="#onda" x="48" y="7" fill="#eff2f6" />
+          <use xlink:href="#onda" x="48" y="7" fill="#fff" />
         </g>
       </svg>
     </div>
@@ -112,13 +112,12 @@ export default class cfooter extends Vue {}
   width: 100%
   display: flex
   align-items: center
-  justify-content: center
-  flex-direction: column
-  font-size: .75rem
+  justify-content: space-between
+  font-size: .7rem
   padding-bottom: 20px
   p
     padding: 5px 10px
-    color: #a7adbd
+    color: #bdc1cd
 .con-footer
   padding: 30px
   padding-bottom: 20px
@@ -128,6 +127,7 @@ export default class cfooter extends Vue {}
   align-items: center
   justify-content: space-between
   width: 100%
+  background: #fff
   .con-links
     display: flex
     align-items: flex-start
@@ -163,6 +163,9 @@ export default class cfooter extends Vue {}
       margin-right: 0px !important
 .ondebox
   width: 100%
+  position: absolute
+  top: 0px
+  transform: translate(0,-100%)
 .footer
   width: 100%
   position: relative
@@ -172,6 +175,7 @@ export default class cfooter extends Vue {}
   flex-direction: column
   z-index: 200
   height: auto
+  background: #fff
   .onda
     position: absolute
     bottom: 0px
@@ -213,6 +217,10 @@ export default class cfooter extends Vue {}
       margin-right: 20px
   .con-text-copy
     font-size: .6rem
+    flex-direction: column
+    justify-content: center
+    p
+      font-size: .6rem
 @media (max-width: 400px)
   .con-footer
     .con-links
