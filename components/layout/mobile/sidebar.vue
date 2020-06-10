@@ -14,20 +14,34 @@
       </div>
 
       <ul>
-        <li>
-          <a @click="handleClick" href="#sec-1">Inicio</a>
+        <li :class="{active: $route.name !== 'contact'}" id="sec-1-btn">
+          <a v-if="$route.name !== 'contact'" href="#sec-1">Inicio</a>
+          <nuxt-link v-else to="/">
+            Inicio
+          </nuxt-link>
         </li>
-        <li>
-          <a @click="handleClick" href="#sec-2">Que es iuPayme?</a>
+        <li id="sec-2-btn">
+          <a v-if="$route.name !== 'contact'" href="#sec-2">Que es iuPayme?</a>
+          <nuxt-link v-else to="/#sec-2">
+            Que es iuPayme?
+          </nuxt-link>
         </li>
-        <li>
-          <a @click="handleClick" href="#sec-3">Como usar iuPayme</a>
+        <li id="sec-3-btn">
+          <a v-if="$route.name !== 'contact'" href="#sec-3">Como usar iuPayme</a>
+          <nuxt-link v-else to="/#sec-3">
+            Como usar iuPayme
+          </nuxt-link>
         </li>
-        <li>
-          <a @click="handleClick" href="#sec-4">Preguntas frecuentes</a>
+        <li id="sec-4-btn">
+          <a v-if="$route.name !== 'contact'" href="#sec-4">Preguntas frecuentes</a>
+          <nuxt-link v-else to="/#sec-4">
+            Preguntas frecuentes
+          </nuxt-link>
         </li>
-        <li class="divider">
-          <a @click="handleClick" href="#sec-5">Contáctenos</a>
+        <li :class="{active: $route.name == 'contact'}" class="divider contact">
+          <nuxt-link to="/contact">
+            Contáctenos
+          </nuxt-link>
         </li>
       </ul>
     </div>

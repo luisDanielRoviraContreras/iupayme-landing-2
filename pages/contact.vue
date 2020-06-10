@@ -33,7 +33,9 @@
 </template>
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-@Component
+@Component({
+  layout: ({ isMobile }) => isMobile ? 'mobile' : 'default',
+})
 export default class contact extends Vue {
   removeActives () {
     const btns = document.querySelectorAll('.navbar > ul > li:not(.contact)')
@@ -63,6 +65,7 @@ export default class contact extends Vue {
     justify-content: center
     flex-wrap: wrap
     max-width: 500px
+    padding: 20px
     button
       padding: 10px 20px
       border-radius: 20px 5px 20px 20px
@@ -113,5 +116,8 @@ export default class contact extends Vue {
       font-style: normal
 // responsive
 
-// @media (max-width: 812px), (pointer:none), (pointer:coarse)
+@media (max-width: 812px), (pointer:none), (pointer:coarse)
+  .contact
+    .con-input
+      width: 100%
 </style>
