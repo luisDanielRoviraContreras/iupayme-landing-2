@@ -237,6 +237,9 @@ export default class sec1 extends Vue {
         img
           max-width: 160px
           margin-right: 12px
+          transition: all .25s ease
+          &:hover
+            transform: scale(1.05)
     .con-img
       width: 100%
       height: 100vh
@@ -282,11 +285,15 @@ export default class sec1 extends Vue {
         min-width: auto
         margin-right: 0px
         .con-download
+          width: 100%
           img
             max-width: 130px
         h1
-          font-size: 1.3rem
+          font-size: 1.4rem
+          text-align: center
+          width: 100%
         p
+          text-align: center
           font-size: .8rem
       .con-img
         height: auto

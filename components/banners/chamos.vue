@@ -72,8 +72,8 @@ export default class chamos extends Vue {}
     font-weight: normal
     max-width: 400px
     position: absolute
-    left: 28%
-    bottom: 0px
+    left: 30%
+    bottom: 100px
     font-size: 1.8rem
 // responsive
 

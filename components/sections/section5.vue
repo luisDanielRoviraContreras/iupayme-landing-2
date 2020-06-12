@@ -182,6 +182,7 @@ export default class sec1 extends Vue {}
         justify-content: center
         flex-direction: column
         text-align: left
+        margin-top: 30px
         p
           padding: 20px 0px
       h2
@@ -193,10 +194,13 @@ export default class sec1 extends Vue {}
         display: flex
         align-items: center
         justify-content: center
-        margin-top: 20px
+        margin-top: 30px
         img
           max-width: 160px
           margin-right: 12px
+          transition: all .25s ease
+          &:hover
+            transform: scale(1.05)
     .con-img
       width: 100%
       height: 100vh
@@ -238,12 +242,16 @@ export default class sec1 extends Vue {}
         padding: 0px 30px
         margin: 0px
         .con-download
+          width: 100%
+          margin-top: 20px
           img
             max-width: 120px
         p
           font-size: .8rem
           padding: 10px 0px !important
         h2
+          text-align: center
+          width: 100%
           font-size: 1.1rem
       .con-img
         height: auto

@@ -19,7 +19,7 @@
       </div>
       <div class="con-input">
         <label for="tel">Teléfono</label>
-        <input placeholder="juan@ejemplo.com" id="tel" type="text">
+        <input id="tel" type="text">
       </div>
       <div class="con-input all">
         <label for="sms">Mensaje</label>
@@ -77,6 +77,7 @@ export default class contact extends Vue {
       margin-top: 10px
       cursor: pointer
       transition: all .25s ease
+      font-weight: bold
       &:hover
         transform: translate(0,-3px)
         box-shadow: 0px 5px 12px 0px -color('color-2', .3)
@@ -92,7 +93,7 @@ export default class contact extends Vue {
     input,textarea
       padding: 10px
       background: -color('bg')
-      border-radius: 10px
+      border-radius: 14px
       border: 0px
       width: 100%
       resize: none
@@ -113,7 +114,6 @@ export default class contact extends Vue {
     padding: 0px 8px
     b
       font-weight: bold
-      font-style: normal
 // responsive
 
 @media (max-width: 812px), (pointer:none), (pointer:coarse)

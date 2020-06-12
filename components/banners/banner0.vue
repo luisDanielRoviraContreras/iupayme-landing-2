@@ -175,7 +175,7 @@ export default class sec3 extends Vue {
           position: absolute
           filter: blur(14px)
           z-index: -1
-          opacity: .5
+          opacity: .4
 // responsive
 
 @media (min-width: 960px)
@@ -183,8 +183,8 @@ export default class sec3 extends Vue {
     ul
       li
         &:hover
-          box-shadow: 0px 10px 40px 0px rgba(0,0,0,.15)
-          margin-top: -8px
+          box-shadow: 0px 10px 30px 0px rgba(0,0,0,.1)
+          margin-top: -6px
           img
             margin-top: -60px !important
             margin-bottom: 25px

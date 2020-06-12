@@ -234,6 +234,7 @@ export default class navbar extends Vue {
         min-width: auto
         padding: 7px 12px
         font-size: .7rem
+        border-radius: 12px
         &.sign-in
           margin-left: 0px
 </style>

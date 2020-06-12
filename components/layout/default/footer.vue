@@ -194,10 +194,15 @@ export default class cfooter extends Vue {}
       width: 100%
       justify-content: space-between
       padding-bottom: 20px
+
   .con-text-copy
     p
       font-size: .7rem
       text-align: center
+  .con-logos
+    img
+      max-height: 40px
+      margin-right: 20px
 @media (max-width: 540px)
   .con-footer
     .con-links
@@ -213,7 +218,7 @@ export default class cfooter extends Vue {}
             font-size: .8rem
   .con-logos
     img
-      max-height: 40px
+      max-height: 30px
       margin-right: 20px
   .con-text-copy
     font-size: .6rem
@@ -233,7 +238,7 @@ export default class cfooter extends Vue {}
         margin-bottom: 20px
   .con-logos
     img
-      max-height: 30px
+      max-height: 25px
       margin-right: 15px
 </style>
 

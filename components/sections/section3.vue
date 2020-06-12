@@ -88,10 +88,10 @@ export default class sec3 extends Vue {
       .bg
         position: absolute
         left: 16px
-        top: 13px
+        top: 18px
         z-index: -1
         max-height: 600px
-        height: calc(60vh - 26px)
+        height: calc(60vh - 34px)
         border-radius: 20px
     .con-info
       width: 33%
@@ -113,7 +113,7 @@ export default class sec3 extends Vue {
         display: flex
         align-items: center
         justify-content: center
-        background: -color('bg-4')
+        background: #e3e8ee
         padding: 4px
         border-radius: 15px
         max-width: 145px
