@@ -165,6 +165,7 @@ export default class sec3 extends Vue {
           border-radius: 15px
           opacity: 0
           transition: all .25s ease
+          top: calc(50% - 15px)
         &:before
           content: ''
           left: 25px
@@ -245,5 +246,8 @@ export default class sec3 extends Vue {
           white-space: nowrap
           border-radius: 20px
           padding: 10px
+          &:before
+            margin-top: 0px
+            top: calc(50% - 3px)
 // @media (max-width: 812px), (pointer:none), (pointer:coarse)
 </style>

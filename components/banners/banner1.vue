@@ -87,13 +87,13 @@ export default class banner1 extends Vue {}
       content: ''
       border-radius: 10px
   .ondebox
-    bottom: 0px
+    bottom: -10px
     position: absolute
     width: 100%
     z-index: 300
   .ondebox2
     z-index: 300
-    top: -30px
+    top: -20px
     position: absolute
     width: 100%
     transform: rotate(180deg)
@@ -112,11 +112,12 @@ export default class banner1 extends Vue {}
       left: 0px
       text-align: center
       padding: 0px 20px
-@media (max-width: 768px), (pointer:none), (pointer:coarse)
+@media (max-width: 768px)
   .banner1
     height: 350px
     background-size: auto 100%
     background-position: center
+    background-attachment: scroll
     .con-text
       h2
         font-size: 1.2rem

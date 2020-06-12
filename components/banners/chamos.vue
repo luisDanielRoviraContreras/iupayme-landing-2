@@ -92,14 +92,14 @@ export default class chamos extends Vue {}
       top: -100px
     .img-2
       right: -40px
-@media (max-width: 700px)
+@media (max-width: 812px)
   .chamos
     h2
       width: calc(100% - 40px)
       left: 20px
       max-width: none
       text-align: center
-      bottom: 30px
+      bottom: 100px
       font-size: 1.2rem
     .img-1
       left: 10px
@@ -117,6 +117,8 @@ export default class chamos extends Vue {}
     h2
       position: relative
       font-size: 1.1rem
+      bottom: 0px
+      left: 0px
     .img-1
       top: -60px
       width: 140px

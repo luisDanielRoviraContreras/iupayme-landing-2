@@ -133,6 +133,13 @@ export default class navbar extends Vue {
       background: -color('color')
       display: block
       margin: 2px 0px
+      border-radius: 10px
+      &:first-child
+        width: 12px
+        margin-left: 8px
+      &:last-child
+        width: 12px
+        margin-right: 8px
   .con-btns
     margin-right: 20px
     button
