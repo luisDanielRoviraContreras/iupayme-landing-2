@@ -8,7 +8,7 @@
       <span />
     </button>
     <div class="con-logo">
-      <img src="/logo_iupayme_1.svg" alt="">
+      <img @click="$router.push('/')" src="/logo_iupayme_1.svg" alt="">
     </div>
 
     <ul>
@@ -162,6 +162,7 @@ export default class navbar extends Vue {
     display: flex
     align-items: center
     justify-content: center
+    cursor: pointer
     img
       width: 100%
   ul
