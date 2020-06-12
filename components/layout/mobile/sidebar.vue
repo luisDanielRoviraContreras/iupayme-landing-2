@@ -65,7 +65,7 @@
   </transition>
 </template>
 <script lang="ts">
-import { Component, Vue, Prop } from 'vue-property-decorator'
+import { Component, Vue, Prop, Watch } from 'vue-property-decorator'
 @Component
 export default class sidebar extends Vue {
   @Prop({ type: Boolean, default: false }) openSidebar: boolean
@@ -81,6 +81,11 @@ export default class sidebar extends Vue {
     }
 
     return percent
+  }
+
+  @Watch('$route.name')
+  handleRoute () {
+    this.$emit('handleClick')
   }
 
   handleClick () {
