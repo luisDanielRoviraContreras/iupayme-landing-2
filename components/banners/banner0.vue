@@ -52,7 +52,7 @@
           alt=""
         >
         <p>
-          Crea <b class="not-italic">chanchas</b> con tus amigos desde la misma plataforma
+          Crea <b class="not-italic">chanchas</b> con tus amigos usando <b>iuPayme</b>
         </p>
       </li>
       <li
