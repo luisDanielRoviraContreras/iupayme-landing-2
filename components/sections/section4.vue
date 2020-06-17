@@ -5,37 +5,37 @@
     </h2>
 
     <div class="con-content">
-      <collapse>
+      <collapse v-model="open" val="1">
         <template #title>
-          Que es iuPayme?
+          Qué es iuPayme?
         </template>
 
         Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris auctor metus at euismod varius. Pellentesque dignissim dolor nulla, in rhoncus turpis blandit in. Sed volutpat, nisi euismod bibendum tristique, est mauris porta nulla, at dictum mauris ligula sed justo. Aliquam nec mauris velit. Donec egestas erat ac faucibus interdum. Nunc eget nisi elementum, convallis nunc a, consequat justo. Morbi ac dolor lobortis, placerat quam a, gravida massa.
       </collapse>
-      <collapse>
+      <collapse v-model="open" val="2">
         <template #title>
           Desde que edad puedo tener una cuenta?
         </template>
 
         Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris auctor metus at euismod varius. Pellentesque dignissim dolor nulla, in rhoncus turpis blandit in. Sed volutpat, nisi euismod bibendum tristique, est mauris porta nulla, at dictum mauris ligula sed justo. Aliquam nec mauris velit. Donec egestas erat ac faucibus interdum. Nunc eget nisi elementum, convallis nunc a, consequat justo. Morbi ac dolor lobortis, placerat quam a, gravida massa.
       </collapse>
-      <collapse>
+      <collapse v-model="open" val="3">
         <template #title>
-          Cual es el limite de dinero permitido que puedo transferir ?
+          Cuál es el límite de dinero permitido que puedo transferir ?
         </template>
 
         Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris auctor metus at euismod varius. Pellentesque dignissim dolor nulla, in rhoncus turpis blandit in. Sed volutpat, nisi euismod bibendum tristique, est mauris porta nulla, at dictum mauris ligula sed justo. Aliquam nec mauris velit. Donec egestas erat ac faucibus interdum. Nunc eget nisi elementum, convallis nunc a, consequat justo. Morbi ac dolor lobortis, placerat quam a, gravida massa.
       </collapse>
-      <collapse>
+      <collapse v-model="open" val="4">
         <template #title>
           Cuantos usuarios puedo tener ?
         </template>
 
         Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris auctor metus at euismod varius. Pellentesque dignissim dolor nulla, in rhoncus turpis blandit in. Sed volutpat, nisi euismod bibendum tristique, est mauris porta nulla, at dictum mauris ligula sed justo. Aliquam nec mauris velit. Donec egestas erat ac faucibus interdum. Nunc eget nisi elementum, convallis nunc a, consequat justo. Morbi ac dolor lobortis, placerat quam a, gravida massa.
       </collapse>
-      <collapse>
+      <collapse v-model="open" val="5">
         <template #title>
-          Que documentos necesito para crear mi cuenta ?
+          Qué documentos necesito para crear mi cuenta ?
         </template>
 
         Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris auctor metus at euismod varius. Pellentesque dignissim dolor nulla, in rhoncus turpis blandit in. Sed volutpat, nisi euismod bibendum tristique, est mauris porta nulla, at dictum mauris ligula sed justo. Aliquam nec mauris velit. Donec egestas erat ac faucibus interdum. Nunc eget nisi elementum, convallis nunc a, consequat justo. Morbi ac dolor lobortis, placerat quam a, gravida massa.
@@ -51,7 +51,9 @@ import collapse from '@/components/common/collapse.vue'
     collapse
   }
 })
-export default class sec4 extends Vue {}
+export default class sec4 extends Vue {
+  open: any = 0
+}
 </script>
 <style lang="sass" scoped>
 .sec-4

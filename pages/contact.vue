@@ -14,7 +14,7 @@
         <input placeholder="Ingresa tus apellidos" id="lastName" type="text">
       </div>
       <div class="con-input">
-        <label for="email">E-MAIL</label>
+        <label for="email">E-mail</label>
         <input placeholder="juan@ejemplo.com" id="email" type="text">
       </div>
       <div class="con-input">

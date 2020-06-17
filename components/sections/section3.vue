@@ -7,22 +7,22 @@
     <div class="con-mockup">
       <ul class="not-scroll-mobile">
         <li class="active">
-          Como me registro?
+          Cómo me registro?
         </li>
         <li>
-          Como transfiero?
+          Cómo transfiero?
         </li>
         <li>
-          Como ver mi saldo?
+          Cómo ver mi saldo?
         </li>
         <li>
-          Como veo mis movimientos?
+          Cómo veo mis movimientos?
         </li>
         <li>
-          Como creo una sub-cuenta?
+          Cómo creo una sub-cuenta?
         </li>
         <li>
-          Como chateo con mis amigos?
+          Cómo chateo con mis amigos?
         </li>
       </ul>
       <div class="mockup">

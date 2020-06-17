@@ -101,7 +101,7 @@
         </h1>
 
         <p>
-          Chatea y envia dinero a tus amigos de forma rapida <br> y segura desde tu telefono, tablet o pc, <b>descarga ya <br> la App en:</b>
+          Chatea y enviá dinero a tus amigos de forma rápida <br> y segura desde tu teléfono, tablet o pc, <b>descarga ya <br> la App en:</b>
         </p>
         <div class="con-download">
           <a href="#">
@@ -251,6 +251,25 @@ export default class sec1 extends Vue {
         width: 100%
         min-width: 600px
 // responsive
+@media (max-height: 780px)
+  .sec-1
+    .con
+      .con-img
+        img
+          max-width: 700px
+@media (max-height: 700px)
+  .sec-1
+    .con
+      .con-img
+        img
+          max-width: 600px
+@media (max-height: 600px)
+  .sec-1
+    .con
+      .con-img
+        img
+          min-width: 500px
+          max-width: 500px
 
 @media (max-width: 768px), (pointer:none), (pointer:coarse)
   .sec-1

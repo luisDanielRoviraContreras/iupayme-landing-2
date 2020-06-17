@@ -88,6 +88,11 @@ export default class sidebar extends Vue {
     this.$emit('handleClick')
   }
 
+  @Watch('$route.hash')
+  handleRouteHash () {
+    this.$emit('handleClick')
+  }
+
   handleClick () {
     this.$emit('handleClick')
   }

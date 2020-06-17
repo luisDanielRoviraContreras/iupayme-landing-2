@@ -173,7 +173,7 @@ export default class sec2 extends Vue {
 @media (max-width: 500px), (pointer:none), (pointer:coarse)
   .sec-2
     flex-direction: column
-    padding-top: 20px
+    padding-top: 60px
     .con-1
       width: 100%
 </style>

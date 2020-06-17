@@ -1,10 +1,10 @@
 <template>
   <div @click="handleToggleOpen" class="collapse">
-    <button :class="{ open }" class="btn">
+    <button :class="{ open: value == val }" class="btn">
       <i class='bx bxs-chevron-down'></i>
     </button>
     <div class="con-coll">
-      <h4 :class="{ open }">
+      <h4 :class="{ open: value == val }">
         <slot name="title" />
       </h4>
       <transition
@@ -12,7 +12,7 @@
         @enter="enter"
         @leave="leave"
       >
-        <p class="text" v-if="open">
+        <p class="text" v-if="value == val">
           <slot />
         </p>
       </transition>
@@ -20,10 +20,11 @@
   </div>
 </template>
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator'
+import { Component, Vue, Prop } from 'vue-property-decorator'
 @Component
 export default class collapse extends Vue {
-  open: boolean = false
+  @Prop({ default: 0 }) val: any
+  @Prop({ default: null }) value: any
 
   beforeEnter (el: any) {
     el.style.height = 0
@@ -41,7 +42,12 @@ export default class collapse extends Vue {
   }
 
   handleToggleOpen () {
-    this.open = !this.open
+    // this.open = !this.open
+    if (this.value === this.val) {
+      this.$emit('input', 0)
+    } else {
+      this.$emit('input', this.val)
+    }
   }
 }
 </script>
@@ -82,6 +88,7 @@ export default class collapse extends Vue {
     font-size: .8rem
     overflow: hidden
     transition: all .25s ease
+    padding-right: 20px
 // responsive
 
 @media (max-width: 812px), (pointer:none), (pointer:coarse)

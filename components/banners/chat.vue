@@ -11,7 +11,7 @@
     <div class="con con-1">
       <div class="con-content">
         <h2>
-          Chatea con tus amigos y enviá y recibe dinero desde <b>iuPayme</b>
+          Chatea con tus amigos, enviá y recibe dinero desde <b>iuPayme</b>
         </h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam luctus massa quam. Sed venenatis lacinia lorem sodales ornare.
