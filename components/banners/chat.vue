@@ -2,10 +2,11 @@
   <section id="chat" class="chat">
     <div class="con con-2">
       <div class="con-content">
-        <img
+        <video autoplay muted loop src="video_chat.mp4"></video>
+        <!-- <img
           src="/iphones.png"
           alt=""
-        >
+        > -->
       </div>
     </div>
     <div class="con con-1">
@@ -59,11 +60,10 @@ export default class chat extends Vue {
       padding: 20px
       margin-left: 40px
     &.con-2
-      max-width: 350px
+      max-width: 550px
       .con-content
         width: 100%
-        max-width: 650px
-      img
+      video
         width: 100%
     h2
       font-weight: normal
@@ -77,11 +77,15 @@ export default class chat extends Vue {
   .chat
     height: auto
     min-height: auto
+    flex-direction: column
     .con
       height: auto
       &.con-2
         padding: 10px
+        width: 100%
       &.con-1
+        width: 100%
+        text-align: center
         margin-left: 0px
       h2
         font-size: 1rem
