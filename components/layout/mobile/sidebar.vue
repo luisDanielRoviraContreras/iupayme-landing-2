@@ -22,15 +22,15 @@
             </nuxt-link>
           </li>
           <li id="sec-2-btn">
-            <a v-if="$route.name !== 'contact'" href="#sec-2">Que es iuPayme?</a>
+            <a v-if="$route.name !== 'contact'" href="#sec-2">¿Qué es iuPayme?</a>
             <nuxt-link v-else to="/#sec-2">
-              Que es iuPayme?
+              ¿Qué es iuPayme?
             </nuxt-link>
           </li>
           <li id="sec-3-btn">
-            <a v-if="$route.name !== 'contact'" href="#sec-3">Como usar iuPayme</a>
+            <a v-if="$route.name !== 'contact'" href="#sec-3">¿Cómo usar iuPayme?</a>
             <nuxt-link v-else to="/#sec-3">
-              Como usar iuPayme
+              ¿Cómo usar iuPayme?
             </nuxt-link>
           </li>
           <li id="sec-4-btn">

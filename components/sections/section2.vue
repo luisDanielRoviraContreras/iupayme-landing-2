@@ -3,7 +3,7 @@
     <div class="con con-1">
       <div class="con-content">
         <h2>
-         ¿Que es  <b>iuPayme</b>?
+          ¿Qué es <b>iuPayme</b>?
         </h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam luctus massa quam. Sed venenatis lacinia lorem sodales ornare.
