@@ -148,16 +148,16 @@ export default class sec3 extends Vue {
     .mockup
       position: relative
       z-index: 10
+      height: 600px
       .img-mockup
-        max-height: 600px
-        height: 60vh
+        height: 100%
       .bg
         position: absolute
         left: 19px
         top: 18px
         z-index: -1
         max-height: 600px
-        height: calc(60vh - 40px)
+        height: calc(600px - 40px)
         border-radius: 20px
     .con-info
       width: 33%
@@ -278,9 +278,11 @@ export default class sec3 extends Vue {
       flex-direction: column
       .mockup
         width: 220px
+        height: auto
         .bg
           height: auto !important
-          width: calc(100% - 30px) !important
+          left: 16px
+          width: calc(100% - 33px) !important
         .img-mockup
           height: auto !important
           width: 100% !important
