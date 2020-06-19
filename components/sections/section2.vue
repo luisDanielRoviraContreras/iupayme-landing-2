@@ -6,9 +6,9 @@
           ¿Qué es <b>iuPayme</b>?
         </h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam luctus massa quam. Sed venenatis lacinia lorem sodales ornare.
+          Es el nuevo método para realizar pagos, enviar, recibir dinero y mucho más del modo más cómodo, rápido y fácil posible.
           <br><br>
-          Maecenas tortor libero, maximus eget elit bibendum, pulvinar rhoncus sapien. Maecenas ut augue lacinia
+          ¡Únete ya a la nueva forma de manejar tu dinero con iuPayme!
         </p>
       </div>
     </div>

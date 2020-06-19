@@ -7,7 +7,7 @@
       <h2>
         <b>
           iuPayme
-        </b> esta validado y <br> soportado 100% por <b>Mastercard</b>
+        </b> tu tarjeta Respaldada por Mastercard
       </h2>
     </div>
   </div>

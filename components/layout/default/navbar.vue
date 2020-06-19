@@ -44,12 +44,12 @@
     </ul>
 
     <div class="con-btns">
-      <button class="login-btn">
+      <a href="https://iupayme.herokuapp.com/" class="login-btn">
         Acceder
-      </button>
-      <button class="sign-in">
+      </a>
+      <a href="https://iupayme.herokuapp.com/register/" class="sign-in">
         Abrir Cuenta
-      </button>
+      </a>
     </div>
   </div>
 </template>
@@ -142,7 +142,10 @@ export default class navbar extends Vue {
         margin-right: 8px
   .con-btns
     margin-right: 20px
-    button
+    display: flex
+    align-items: center
+    justify-content: center
+    a
       padding: 10px 25px
       border-radius: 16px
       border: 0px
@@ -150,6 +153,9 @@ export default class navbar extends Vue {
       cursor: pointer
       transition: all .25s ease
       min-width: 125px
+      display: block
+      text-align: center
+      color: -color('color')
       &.login-btn
         background: -color('bg')
         &:hover

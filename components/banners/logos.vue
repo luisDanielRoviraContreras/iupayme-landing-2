@@ -11,9 +11,9 @@
     </div>
     <div class="con-logos">
       <ul>
-        <li>
+        <!-- <li>
           <img src="/logo.png" alt="">
-        </li>
+        </li> -->
         <li>
           <img src="/1200px-SBS.svg_.png" alt="">
         </li>

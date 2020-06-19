@@ -15,7 +15,7 @@
           Chatea con tus amigos, enviá y recibe dinero desde <b>iuPayme</b>
         </h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam luctus massa quam. Sed venenatis lacinia lorem sodales ornare.
+          iuPayme te permite comunicarte con tus amigos y familiares, realizar recargas, coordinar pagos en conjunto y más...
         </p>
       </div>
     </div>
