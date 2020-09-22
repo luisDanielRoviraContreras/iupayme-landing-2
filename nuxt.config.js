@@ -1,12 +1,12 @@
 
-export default {
-  mode: 'universal',
+module.exports =  {
   /*
   ** Headers of the page
   */
   router: {
     middleware: ['mobile']
   },
+  buildDir: 'nuxt',
   head: {
     title: 'iuPayme',
     meta: [

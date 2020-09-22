@@ -1,8 +1,6 @@
 <template>
   <div class="container">
-    <navbar />
     <nuxt />
-    <c-footer />
   </div>
 </template>
 <script lang="ts">

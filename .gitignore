@@ -1,3 +1,9 @@
+nuxt/
+public/*
+!public/empty
+functions/nuxt.config.js
+*-lock.json
+*.cache
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs

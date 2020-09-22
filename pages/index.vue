@@ -1,5 +1,6 @@
 <template>
   <div class="index">
+    <navbar />
     <sec1 />
     <sec2 />
     <master />
@@ -11,11 +12,14 @@
     <sec4 />
     <chamos />
     <sec5 />
+    <c-footer />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
+import navbar from '@/components/layout/default/navbar.vue'
+import cFooter from '@/components/layout/default/footer.vue'
 import sec1 from '@/components/sections/section1.vue'
 import sec2 from '@/components/sections/section2.vue'
 import sec3 from '@/components/sections/section3.vue'
@@ -30,6 +34,8 @@ import chamos from '@/components/banners/chamos.vue'
 @Component({
   layout: ({ isMobile }) => isMobile ? 'mobile' : 'default',
   components: {
+    navbar,
+    cFooter,
     sec1,
     sec2,
     sec3,
