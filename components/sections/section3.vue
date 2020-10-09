@@ -69,7 +69,7 @@ export default class sec3 extends Vue {
       items: [
         {
           img: 'print/n2.png',
-          title: 'Escoge el diseño de tu tarjeta iu',
+          title: 'Escoge el diseño de tu tarjeta iu.',
           text: 'Al registrarte puedes elegir el estilo visual de tu tarjeta que sera enviada físicamente al terminar de verificar tu cuenta'
         },
         {
