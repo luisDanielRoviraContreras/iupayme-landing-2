@@ -7,38 +7,38 @@
     <div class="con-content">
       <collapse v-model="open" val="1">
         <template #title>
-          ¿Qué es iuPayme?
+          ¿Qué es iu?
         </template>
 
-        <b>iuPayme</b> es un servicio innovador de billetera dirigido a jóvenes que les permite manejar su dinero de manera confiable dejando atrás los procesos complejos para obtener cuentas bancarias, les da la oportunidad de iniciarse en la experiencia del manejo responsable e independiente del dinero y les proporciona la facilidad para esto mediante una tarjeta propia y una aplicación adaptada a sus necesidades y la de sus padres o representantes.
+        <b>iu</b> es un servicio innovador de billetera dirigido a jóvenes que les permite manejar su dinero de manera confiable dejando atrás los procesos complejos para obtener cuentas bancarias, les da la oportunidad de iniciarse en la experiencia del manejo responsable e independiente del dinero y les proporciona la facilidad para esto mediante una tarjeta propia y una aplicación adaptada a sus necesidades y la de sus padres o representantes.
       </collapse>
       <collapse v-model="open" val="2">
         <template #title>
           ¿Desde qué edad puedo tener una cuenta?
         </template>
 
-        Si actualmente tienes entre 11 y 17 años puedes desenvolverte de manera independiente con tu tarjeta iuPayme de forma fácil, rápida y confiable.  ¡Garantizándole a tus padres y a ti total tranquilidad mediante nuestra plataforma!
+        Si actualmente tienes entre 11 y 17 años puedes desenvolverte de manera independiente con tu tarjeta iu de forma fácil, rápida y confiable.  ¡Garantizándole a tus padres y a ti total tranquilidad mediante nuestra plataforma!
       </collapse>
       <collapse v-model="open" val="3">
         <template #title>
           ¿Cuál es el límite de dinero permitido para transferir?
         </template>
 
-        En <b>iuPayme</b> puedes transferir hasta un máximo de S/. 999 por cada operación que realices y hasta 10 operaciones al día permitiéndote contar con tus ingresos al instante y sin complicaciones.
+        En <b>iu</b> puedes transferir hasta un máximo de S/. 999 por cada operación que realices y hasta 10 operaciones al día permitiéndote contar con tus ingresos al instante y sin complicaciones.
       </collapse>
       <collapse v-model="open" val="4">
         <template #title>
           ¿Cuántos usuarios puedo tener?
         </template>
 
-        En <b>iuPayme</b> puedes contar con varios usuarios en una sola cuenta los cuales podrán tener acceso personalizado a sus funciones siempre supervisadas por un padre o representante legal para mantener la tranquilidad y seguridad de toda la familia.
+        En <b>iu</b> puedes contar con varios usuarios en una sola cuenta los cuales podrán tener acceso personalizado a sus funciones siempre supervisadas por un padre o representante legal para mantener la tranquilidad y seguridad de toda la familia.
       </collapse>
       <collapse v-model="open" val="5">
         <template #title>
           ¿Qué documentos necesito para crear mi cuenta?
         </template>
 
-        Para tener tu cuenta en iuPayme solo necesitas lo siguiente: <br> <br>
+        Para tener tu cuenta en iu solo necesitas lo siguiente: <br> <br>
         - Número de tu Documento de Identidad. <br>
         - Foto frontal y posterior de tu Documento de Identidad. <br>
         - Número de Documento de uno de tus padres o representante legal. <br>

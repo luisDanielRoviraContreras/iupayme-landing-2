@@ -11,7 +11,7 @@
     >
       <div class="con-sidebar">
         <div class="con-logo">
-          <img src="/logo_iupayme_1.svg" alt="">
+          <img src="/logo_iu_1.svg" alt="">
         </div>
 
         <ul>
@@ -22,15 +22,15 @@
             </nuxt-link>
           </li>
           <li id="sec-2-btn">
-            <a v-if="$route.name !== 'contact'" href="#sec-2">¿Qué es iuPayme?</a>
+            <a v-if="$route.name !== 'contact'" href="#sec-2">¿Qué es iu?</a>
             <nuxt-link v-else to="/#sec-2">
-              ¿Qué es iuPayme?
+              ¿Qué es iu?
             </nuxt-link>
           </li>
           <li id="sec-3-btn">
-            <a v-if="$route.name !== 'contact'" href="#sec-3">¿Cómo usar iuPayme?</a>
+            <a v-if="$route.name !== 'contact'" href="#sec-3">¿Cómo usar iu?</a>
             <nuxt-link v-else to="/#sec-3">
-              ¿Cómo usar iuPayme?
+              ¿Cómo usar iu?
             </nuxt-link>
           </li>
           <li id="sec-4-btn">

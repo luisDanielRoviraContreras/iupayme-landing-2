@@ -8,7 +8,7 @@ export default {
     middleware: ['mobile']
   },
   head: {
-    title: 'iuPayme',
+    title: 'iu',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -57,7 +57,7 @@ export default {
   */
   pwa: {
     manifest: {
-      name: 'Iupayme',
+      name: 'Iu',
       theme_color: '#121624',
       background_color: '#f5f7f9',
       description: 'Cartera - Tarjetas - Cryptocurrency',

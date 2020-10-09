@@ -3,7 +3,7 @@
     <img class="img-1" src="/img/chicos1.png" alt="">
     <img class="img-2" src="/img/chicos2.png" alt="">
     <h2>
-      Ahora con <b>iuPayme</b> <br> tus hijos pueden tener su propia tarjeta
+      Ahora con <b>iu</b> <br> tus hijos pueden tener su propia tarjeta
     </h2>
 
     <div class="ondebox">

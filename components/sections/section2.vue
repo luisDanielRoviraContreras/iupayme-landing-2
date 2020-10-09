@@ -3,12 +3,12 @@
     <div class="con con-1">
       <div class="con-content">
         <h2>
-          ¿Qué es <b>iuPayme</b>?
+          ¿Qué es <b>iu</b>?
         </h2>
         <p>
           Es el nuevo método para realizar pagos, enviar, recibir dinero y mucho más del modo más cómodo, rápido y fácil posible.
           <br><br>
-          ¡Únete ya a la nueva forma de manejar tu dinero con iuPayme!
+          ¡Únete ya a la nueva forma de manejar tu dinero con iu!
         </p>
       </div>
     </div>

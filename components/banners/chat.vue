@@ -12,10 +12,10 @@
     <div class="con con-1">
       <div class="con-content">
         <h2>
-          Chatea con tus amigos, enviá y recibe dinero desde <b>iuPayme</b>
+          Chatea con tus amigos, enviá y recibe dinero desde <b>iu</b>
         </h2>
         <p>
-          iuPayme te permite comunicarte con tus amigos y familiares, realizar recargas, coordinar pagos en conjunto y más...
+          iu te permite comunicarte con tus amigos y familiares, realizar recargas, coordinar pagos en conjunto y más...
         </p>
       </div>
     </div>
