@@ -3,7 +3,7 @@
     id="banner-0"
     class="banner-0">
     <!-- <h2>
-      Beneficios al usar <b>iuPayme</b>
+      Beneficios al usar <b>iu</b>
     </h2> -->
 
     <ul>
@@ -28,7 +28,7 @@
           alt=""
         >
         <p>
-          Obtén tu tarjeta <b>iuPayme</b> al toque
+          Obtén tu tarjeta <b>iu</b> al toque
         </p>
       </li>
       <li
@@ -52,7 +52,7 @@
           alt=""
         >
         <p>
-          Crea <b class="not-italic">chanchas</b> con tus amigos usando <b>iuPayme</b>
+          Crea <b class="not-italic">chanchas</b> con tus amigos usando <b>iu</b>
         </p>
       </li>
       <li
@@ -76,7 +76,7 @@
           alt=""
         >
         <p>
-          Chatea con tus amigos directamente desde <b>iuPayme</b>
+          Chatea con tus amigos directamente desde <b>iu</b>
         </p>
       </li>
       <li
@@ -100,7 +100,7 @@
           alt=""
         >
         <p>
-          Con <b>iuPayme</b> transfieres de manera rápida y segura
+          Con <b>iu</b> transfieres de manera rápida y segura
         </p>
       </li>
     </ul>

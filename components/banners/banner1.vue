@@ -2,7 +2,7 @@
   <div class="banner1">
     <div class="con-text">
       <h2>
-        Compra con tu tarjeta virtual <b>iuPayme</b> en cualquier comercio o de manera online
+        Compra con tu tarjeta virtual <b>iu</b> en cualquier comercio o de manera online
       </h2>
     </div>
 

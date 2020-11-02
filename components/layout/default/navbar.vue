@@ -8,9 +8,8 @@
       <span />
     </button>
     <div class="con-logo">
-      <img @click="$router.push('/')" src="/logo_iupayme_1.svg" alt="">
+      <img @click="$router.push('/')" src="/logo_iu_1.svg" alt="">
     </div>
-
     <ul>
       <li :class="{active: $route.name !== 'contact'}" id="sec-1-btn">
         <a v-if="$route.name !== 'contact'" href="#sec-1">Inicio</a>
@@ -19,15 +18,15 @@
         </nuxt-link>
       </li>
       <li id="sec-2-btn">
-        <a v-if="$route.name !== 'contact'" href="#sec-2">¿Qué es iuPayme?</a>
+        <a v-if="$route.name !== 'contact'" href="#sec-2">¿Qué es iu?</a>
         <nuxt-link v-else to="/#sec-2">
-          ¿Qué es iuPayme?
+          ¿Qué es iu?
         </nuxt-link>
       </li>
       <li id="sec-3-btn">
-        <a v-if="$route.name !== 'contact'" href="#sec-3">¿Cómo usar iuPayme?</a>
+        <a v-if="$route.name !== 'contact'" href="#sec-3">¿Cómo usar iu?</a>
         <nuxt-link v-else to="/#sec-3">
-          ¿Cómo usar iuPayme?
+          ¿Cómo usar iu?
         </nuxt-link>
       </li>
       <li id="sec-4-btn">
@@ -44,10 +43,10 @@
     </ul>
 
     <div class="con-btns">
-      <a href="https://iupayme.herokuapp.com/" class="login-btn">
+      <a href="https://iu.herokuapp.com/" class="login-btn">
         Acceder
       </a>
-      <a href="https://iupayme.herokuapp.com/register/" class="sign-in">
+      <a href="https://iu.herokuapp.com/register/" class="sign-in">
         Abrir Cuenta
       </a>
     </div>
@@ -170,7 +169,7 @@ export default class navbar extends Vue {
           transform: translate(0,-3px)
           box-shadow: 0px 5px 12px 0px -color('color-2', .3)
   .con-logo
-    width: 120px
+    width: 60px
     margin-left: 30px
     display: flex
     align-items: center

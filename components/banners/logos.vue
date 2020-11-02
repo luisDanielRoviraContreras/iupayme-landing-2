@@ -3,7 +3,7 @@
     <div class="con-text">
       <p>
         <b class="logo">
-          iuPayme
+          iu
         </b>
         es un producto de <b>GMONEY SA</b> autorizada por la <b>SBS (super intendencia de banca y seguro)</b>
         con la licencia #7247-2015 que presta servicio de emisión de dinero electrónico

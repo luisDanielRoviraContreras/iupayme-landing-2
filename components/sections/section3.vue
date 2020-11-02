@@ -1,7 +1,7 @@
 <template>
   <div id="sec-3" class="sec-3">
     <h2>
-      Mira lo fácil que es usar <b>iuPayme</b>
+      Mira lo fácil que es usar <b>iu</b>
     </h2>
 
     <div class="con-mockup">
@@ -58,6 +58,7 @@
 </template>
 <script lang="ts">
 import { Component, Vue, Watch } from 'vue-property-decorator'
+
 @Component
 export default class sec3 extends Vue {
   active: number = 0
@@ -68,34 +69,34 @@ export default class sec3 extends Vue {
       title: 'Cómo me registro',
       items: [
         {
-          img: 'print/0-0.png',
-          title: 'Escoge el diseño de tu tarjeta iuPayme',
+          img: 'print/n2.png',
+          title: 'Escoge el diseño de tu tarjeta iu.',
           text: 'Al registrarte puedes elegir el estilo visual de tu tarjeta que sera enviada físicamente al terminar de verificar tu cuenta'
         },
         {
-          img: 'print/0-1.png',
+          img: 'print/n3.png',
           title: 'Fecha de nacimiento, términos y condiciones',
           text: 'Proporciona tu fecha de nacimiento y acepta los términos y condiciones'
         },
         {
-          img: 'print/0-2.png',
+          img: 'print/n4.png',
           title: 'Numero de celular',
           text: 'Proporciona tu numero de celular para ser verificado'
         },
         {
-          img: 'print/0-3.png',
+          img: 'print/n5.png',
           title: 'Mensaje de verificación',
           text: 'Mandaremos un mensaje para verificar el numero proporcionado, agregalo y dale a siguiente'
         },
         {
-          img: 'print/0-4.png',
+          img: 'print/n5.png',
           title: 'Correo y contraseña',
           text: 'Ingresa tu correo electrónico y la contraseña de manera segura'
         },
         {
-          img: 'print/0-5.png',
-          title: 'Bienvenido a iuPayme',
-          text: 'Listo! asi de fácil en es registrarse en iuPayme, que esperas para crear tu primera tarjeta y disfrutar de todos los beneficios'
+          img: 'print/n5.png',
+          title: 'Bienvenido a iu',
+          text: 'Listo! asi de fácil en es registrarse en iu, que esperas para crear tu primera tarjeta y disfrutar de todos los beneficios'
         }
       ]
     },

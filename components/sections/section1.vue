@@ -97,7 +97,7 @@
     <div class="con-2 con">
       <div class="content-con">
         <h1>
-          Bienvenido a <b>iuPayme</b>
+          Bienvenido a <b>iu</b>
         </h1>
 
         <p>

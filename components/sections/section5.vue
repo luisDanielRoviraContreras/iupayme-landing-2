@@ -67,7 +67,7 @@
     <div class="con-2 con">
       <div class="content-con">
         <h2>
-          Descarga la App ahora y obtén tu tarjeta <b>iuPayme</b> al toque
+          Descarga la App ahora y obtén tu tarjeta <b>iu</b> al toque
         </h2>
         <div class="con-download">
           <a href="#">

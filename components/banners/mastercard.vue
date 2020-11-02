@@ -6,7 +6,7 @@
       </div>
       <h2>
         <b>
-          iuPayme
+          iu
         </b> tu tarjeta Respaldada por Mastercard
       </h2>
     </div>

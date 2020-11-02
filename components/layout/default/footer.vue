@@ -28,7 +28,7 @@
         <ul class="links">
           <li>
             <h4>
-              Mas de iuPayme
+              Mas de iu
             </h4>
           </li>
           <li>
@@ -80,7 +80,7 @@
 
     <div class="con-text-copy">
       <p>
-        2020 iuPayme .All rights reserved
+        2020 iu .All rights reserved
       </p>
       <p>
         Al usar este sitio web estas aceptando los términos y condiciones. KYC & AML Polices. para mas información accede al CENTRO DE SOPORTE
