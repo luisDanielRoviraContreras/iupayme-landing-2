@@ -71,7 +71,7 @@
       </div>
 
       <div class="con-logos">
-        <img src="/1200px-Mastercard-logo.svg.png" alt="">
+        <!-- <img src="/1200px-Mastercard-logo.svg.png" alt=""> -->
         <img src="/1200px-SBS.svg_.png" alt="">
         <img src="/as.png" alt="">
         <!-- <img src="/logo.png" alt=""> -->

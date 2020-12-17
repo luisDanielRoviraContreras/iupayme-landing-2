@@ -43,10 +43,10 @@
     </ul>
 
     <div class="con-btns">
-      <a href="https://iu.herokuapp.com/" class="login-btn">
+      <a href="#" class="login-btn">
         Acceder
       </a>
-      <a href="https://iu.herokuapp.com/register/" class="sign-in">
+      <a href="#" class="sign-in">
         Abrir Cuenta
       </a>
     </div>

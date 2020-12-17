@@ -2,12 +2,13 @@
   <div class="master">
     <div class="con-master">
       <div class="con-img">
-        <img src="/1200px-Mastercard-logo.svg.png" alt="">
+        <!-- <img src="/1200px-Mastercard-logo.svg.png" alt=""> -->
+        <img src="/1200px-SBS.svg_.png" alt="">
       </div>
       <h2>
         <b>
           iu
-        </b> tu tarjeta Respaldada por Mastercard
+        </b> tu tarjeta Respaldada
       </h2>
     </div>
   </div>

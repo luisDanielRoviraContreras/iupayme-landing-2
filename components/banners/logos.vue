@@ -20,9 +20,6 @@
         <li>
           <img src="/as.png" alt="">
         </li>
-        <li>
-          <img class="master" src="/1200px-Mastercard-logo.svg.png" alt="">
-        </li>
       </ul>
     </div>
   </div>
